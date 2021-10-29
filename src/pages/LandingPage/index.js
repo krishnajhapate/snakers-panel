@@ -1,5 +1,6 @@
 import React from "react";
 import AboutSection from "./AboutSection";
+import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import VeryClearSection from "./VeryClearSection";
 import WhoweareSection from "./WhoweareSection";
@@ -59,6 +60,7 @@ function LandingPage() {
             <AboutSection />
             <WhoweareSection />
             <VeryClearSection />
+            <Footer />
         </div>
     );
 }
