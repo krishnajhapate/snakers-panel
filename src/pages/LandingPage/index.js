@@ -1,9 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import AboutSection from "./AboutSection";
 import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import VeryClearSection from "./VeryClearSection";
 import WhoweareSection from "./WhoweareSection";
+import "./style.css";
 
 function LandingPage() {
     return (
@@ -37,19 +39,21 @@ function LandingPage() {
                     </div>
                     <div id="navbar" class="collapse navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
-                                <a href="/">Sign in</a>
+                            <li>
+                                <NavLink to="/" activeClassName="active">
+                                    Sign in
+                                </NavLink>
                             </li>
                             <li>
-                                <a href="/services">Services</a>
+                                <NavLink activeClassName="active" to="/services">Services</NavLink>
                             </li>
                             <li>
-                                <a href="/page/terms-and-conditions">Terms</a>
+                                <NavLink activeClassName="active" to="/page/terms-and-conditions">Terms</NavLink>
                             </li>
                             <li>
-                                <a href="/register" class="singup">
+                                <NavLink activeClassName="active" to="/register" class="singup">
                                     Sign up
-                                </a>
+                                </NavLink>
                             </li>
                         </ul>
                     </div>
