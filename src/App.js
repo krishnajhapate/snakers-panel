@@ -3,6 +3,7 @@ import LandingPage from "./pages/LandingPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ServicePage from "./pages/ServicePage";
 import TermsAndConditionPage from "./pages/TermsAndConditionPage";
+import RegisterPage from "./pages/RegisterPage";
 
 function App() {
     return (
@@ -14,7 +15,7 @@ function App() {
                         path="/terms-and-conditions"
                         component={TermsAndConditionPage}
                     />
-                    <Route path="/register" component={LandingPage} />
+                    <Route path="/register" component={RegisterPage} />
                     <Route exact path="/" component={LandingPage} />
 
                     <Route path="/signup" />
