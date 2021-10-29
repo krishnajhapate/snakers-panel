@@ -1,6 +1,7 @@
 import React from "react";
 import AboutSection from "./AboutSection";
 import HeroSection from "./HeroSection";
+import WhoweareSection from "./WhoweareSection";
 
 function LandingPage() {
     return (
@@ -55,6 +56,7 @@ function LandingPage() {
 
             <HeroSection />
             <AboutSection />
+            <WhoweareSection />
         </div>
     );
 }
