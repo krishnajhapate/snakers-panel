@@ -45,13 +45,27 @@ function LandingPage() {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink activeClassName="active" to="/services">Services</NavLink>
+                                <NavLink
+                                    activeClassName="active"
+                                    to="/services"
+                                >
+                                    Services
+                                </NavLink>
                             </li>
                             <li>
-                                <NavLink activeClassName="active" to="/terms-and-conditions">Terms</NavLink>
+                                <NavLink
+                                    activeClassName="active"
+                                    to="/terms-and-conditions"
+                                >
+                                    Terms
+                                </NavLink>
                             </li>
                             <li>
-                                <NavLink activeClassName="active" to="/register" class="singup">
+                                <NavLink
+                                    activeClassName="active"
+                                    to="/register"
+                                    class="singup"
+                                >
                                     Sign up
                                 </NavLink>
                             </li>

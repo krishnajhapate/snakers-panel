@@ -8,10 +8,10 @@ function App() {
         <div>
             <Router>
                 <Switch>
+                    <Route exact path="/service" component={ServicePage} />
                     <Route path="/" component={LandingPage} />
-                    <Route path="/service" component={ServicePage} />
                     <Route path="/" component={LandingPage} />
-                    <Route path="/" component={LandingPage} />
+                    <Route exact path="/" component={LandingPage} />
 
                     <Route path="/signup" />
                 </Switch>
