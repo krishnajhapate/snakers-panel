@@ -1,7 +1,11 @@
 import React from "react";
+import HeaderLanding from "../../components/HeaderLanding";
 
 function TermsAndConditionPage() {
-    return <div>TermsAndCondtion</div>;
+    return <div>
+        <HeaderLanding />
+        
+        n</div>;
 }
 
 export default TermsAndConditionPage;
