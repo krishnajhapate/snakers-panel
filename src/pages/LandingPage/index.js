@@ -1,4 +1,5 @@
 import React from "react";
+import AboutSection from "./AboutSection";
 import HeroSection from "./HeroSection";
 
 function LandingPage() {
@@ -53,6 +54,7 @@ function LandingPage() {
             </nav>
 
             <HeroSection />
+            <AboutSection />
         </div>
     );
 }
