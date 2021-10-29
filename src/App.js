@@ -9,8 +9,11 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path="/service" component={ServicePage} />
-                    <Route path="/" component={LandingPage} />
-                    <Route path="/" component={LandingPage} />
+                    <Route
+                        path="/terms-and-conditions"
+                        component={LandingPage}
+                    />
+                    <Route path="/register" component={LandingPage} />
                     <Route exact path="/" component={LandingPage} />
 
                     <Route path="/signup" />
