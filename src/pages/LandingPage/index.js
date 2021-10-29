@@ -1,4 +1,5 @@
 import React from "react";
+import HeroSection from "./HeroSection";
 
 function LandingPage() {
     return (
@@ -26,7 +27,7 @@ function LandingPage() {
                                 src="https://snakerspanel.com/images/vVdoIXNHrbgYT46UgJtKFF77a2xy9LNgLOE6kbPk.png"
                                 alt=""
                                 title=""
-                                // style="max-height: 80px;max-width:68px;"
+                                style={{ maxHeight: "80px", maxWidth: "68px" }}
                             />
                         </a>
                     </div>
@@ -50,6 +51,8 @@ function LandingPage() {
                     </div>
                 </div>
             </nav>
+
+            <HeroSection />
         </div>
     );
 }
